@@ -727,7 +727,6 @@ hr {
 .about-area .about-content .content-work {
   margin-right: 16px;
 }
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .about-area .about-img img {
     -o-object-fit: cover;
@@ -766,6 +765,7 @@ hr {
     margin: 0 auto 40px auto;
     object-fit: cover;
     width: 250px;
+    object-position: top;
   }
 
   .about-area .about-content .content-subtitle {
@@ -795,6 +795,7 @@ hr {
   .about-area .about-img img {
     height: 200px;
     width: 200px;
+    object-position: top;
   }
 
   .about-area .about-content .content-info>.row:last-child .single-info {
@@ -815,6 +816,7 @@ hr {
 
   .about-area .about-img img {
     margin: 0 auto 32px auto;
+    object-position: top;
   }
 
   .about-area .about-content .content-subtitle {
